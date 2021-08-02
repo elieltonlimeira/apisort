@@ -7,4 +7,4 @@ To start your Phoenix server:
   * Install Node.js dependencies with `npm install` inside the `assets` directory
   * Start Phoenix endpoint with `mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000/api/apisorts) from your browser.
+Now you can visit [`http://localhost:4000/api/apisorts`](http://localhost:4000/api/apisorts) from your browser.
