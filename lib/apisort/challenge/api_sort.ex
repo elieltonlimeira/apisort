@@ -18,7 +18,7 @@ end
 
 defmodule GetNumbers do
 
-  def get_numbers(i \\ 9990, l \\ []) do
+  def get_numbers(i \\ 1, l \\ []) do
     case HTTPoison.get("#{"http://challenge.dienekes.com.br/api/numbers?page="}#{i}") do
       {:ok, %HTTPoison.Response{body: pre}} ->
       pre
