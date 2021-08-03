@@ -15,7 +15,7 @@ defmodule ApisortWeb.Router do
 
   scope "/api", ApisortWeb do
       pipe_through :api
-      resources "/apisorts", ApiSortController, only: [:index, :show]
+      resources "/apisorted", ApiSortController, only: [:index]
     end
 
   # Other scopes may use custom stacks.
