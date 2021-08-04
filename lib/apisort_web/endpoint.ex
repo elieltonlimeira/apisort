@@ -1,9 +1,6 @@
 defmodule ApisortWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :apisort
 
-  # The session will be stored in the cookie and signed,
-  # this means its contents can be read but not tampered with.
-  # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
     key: "_apisort_key",
@@ -20,6 +17,7 @@ defmodule ApisortWeb.Endpoint do
   #
   # You should set gzip to true if you are running phx.digest
   # when deploying your static files in production.
+
   plug Plug.Static,
     at: "/",
     from: :apisort,
